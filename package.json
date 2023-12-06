@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"start": "node stats.js",
+		"install:db": "./install.sh"
+	},
+	"type": "module",
+	"dependencies": {
+		"mariadb": "^3.2.2",
+		"prompt-sync": "^4.2.0"
+	}
+}
