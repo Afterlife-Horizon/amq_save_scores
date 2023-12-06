@@ -7,9 +7,6 @@ const prompt = prompt_sync();
 
 const dbInfo = process.env;
 
-console.log(dbInfo.DB_HOST, dbInfo.DB_USER, dbInfo.DB_PASS, dbInfo.DB_NAME);
-process.exit(0);
-
 const pool = mariadb.createPool({
 	host: dbInfo.DB_HOST,
 	user: dbInfo.DB_USER,
