@@ -2,7 +2,7 @@ SET FOREIGN_KEY_CHECKS=0;
 CREATE TABLE IF NOT EXISTS `anime_songs` (
   `id` varchar(100) NOT NULL,
   `song_name_english` mediumtext DEFAULT NULL,
-  `song_url` mediumtext NOT NULL,
+  `song_url` mediumtext,
   `song_name_romaji` mediumtext DEFAULT NULL,
   `anime_genre` longtext DEFAULT '{}',
   PRIMARY KEY (`id`)
