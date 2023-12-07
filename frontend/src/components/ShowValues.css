@@ -1,0 +1,5 @@
+.table {
+	max-height: 100vh !important;
+	width: 100%;
+	border-left: 1px solid white;
+}
